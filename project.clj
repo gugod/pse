@@ -5,6 +5,7 @@
             :url "http://creativecommons.org/publicdomain/zero/1.0/"}
   :dependencies [[org.clojure/clojure "1.6.0"]
                  [org.apache.lucene/lucene-core "4.10.2"]
+                 [org.apache.lucene/lucene-analyzers-common "4.10.2"]
                  [org.apache.lucene/lucene-queries "4.10.2"]]
   :main ^:skip-aot pse.core
   :target-path "target/%s"
