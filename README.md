@@ -4,7 +4,7 @@
 
 Index text files
 
-    lein run -m pse.text/index ~/var/pse/ptdoc ~/Documents/**/*.txt
+    lein run -m pse.index-plain-text ~/var/pse/ptdoc ~/Documents/**/*.txt
 
 Search a index
 
